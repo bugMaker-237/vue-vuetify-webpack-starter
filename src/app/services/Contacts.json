@@ -1,0 +1,71 @@
+[{
+        "id": "5b00aa734762962f18dbbd67",
+        "isFavorite": false,
+        "picture": "images/2.jpg",
+        "name": {
+            "first": "Castro",
+            "last": "Williamson"
+        },
+        "company": "XPLOR",
+        "email": "castro.williamson@xplor.tv",
+        "phone": "+1 (899) 495-3853",
+        "notes": "Irure sunt proident ea in. Amet sunt mollit in proident. Reprehenderit labore voluptate cillum in reprehenderit nostrud ea qui enim. Duis anim ipsum et non cupidatat. Et reprehenderit enim cupidatat incididunt tempor mollit tempor aute magna dolor mollit proident.",
+        "jobTitle": "nulla"
+    },
+    {
+        "id": "5b00aa73ba93864de8cb9f7e",
+        "isFavorite": false,
+        "picture": "images/1.jpg",
+        "name": {
+            "first": "Olive",
+            "last": "Carter"
+        },
+        "company": "HINWAY",
+        "email": "olive.carter@hinway.com",
+        "phone": "+1 (957) 482-2651",
+        "notes": "Dolore nisi aute ad et sit ex. Ex in proident sit tempor magna do sunt fugiat aute reprehenderit. Magna eu aute adipisicing dolore. Tempor deserunt minim eu commodo eu cillum fugiat fugiat fugiat magna non. Deserunt exercitation aute ullamco labore anim eiusmod cupidatat ea eu ut. Tempor id tempor veniam quis laborum adipisicing adipisicing ad elit cupidatat aliqua aute.",
+        "jobTitle": "culpa"
+    },
+    {
+        "id": "5b00aa73c3c123c8806a597a",
+        "isFavorite": true,
+        "picture": "images/3.jpg",
+        "name": {
+            "first": "Sonja",
+            "last": "Stark"
+        },
+        "company": "ACRODANCE",
+        "email": "sonja.stark@acrodance.name",
+        "phone": "+1 (914) 508-2844",
+        "notes": "Aute ad mollit in ea do velit nostrud et dolore ex officia mollit. Enim Lorem eiusmod dolor veniam aute veniam culpa et nulla reprehenderit. Voluptate do laborum laboris laborum laboris nulla irure culpa ad exercitation elit est. Reprehenderit exercitation esse incididunt exercitation qui exercitation id amet. Exercitation velit officia quis Lorem ea proident exercitation mollit eiusmod culpa consectetur consequat.",
+        "jobTitle": "sit"
+    },
+    {
+        "id": "5b00aa73f3ffe5b1062850a9",
+        "isFavorite": false,
+        "picture": "images/4.jpg",
+        "name": {
+            "first": "Lisa",
+            "last": "Hess"
+        },
+        "company": "ZILENCIO",
+        "email": "lisa.hess@zilencio.io",
+        "phone": "+1 (905) 598-2993",
+        "notes": "Ut officia anim consequat aute aliqua id nisi nulla consequat laboris. Aliquip aliquip ut aliqua voluptate anim ullamco exercitation ea amet deserunt labore exercitation. Lorem ea ipsum voluptate reprehenderit magna aute ullamco fugiat amet sit deserunt.",
+        "jobTitle": "occaecat"
+    },
+    {
+        "id": "5b00aa7375961452c39475e3",
+        "isFavorite": false,
+        "picture": "images/5.jpg",
+        "name": {
+            "first": "Phillips",
+            "last": "Zimmerman"
+        },
+        "company": "RETRACK",
+        "email": "phillips.zimmerman@retrack.us",
+        "phone": "+1 (820) 572-3990",
+        "notes": "Esse proident veniam velit esse sint irure enim adipisicing aliquip occaecat. Magna elit nulla non Lorem excepteur eiusmod sint excepteur do nostrud exercitation ad officia. Veniam aliqua pariatur aliquip consequat dolore ea nostrud minim. Aliqua ad pariatur in anim id amet et cillum enim. Et nostrud non ullamco eiusmod ipsum anim mollit sunt. Culpa dolor et officia mollit fugiat proident ea quis.",
+        "jobTitle": "laboris"
+    }
+]

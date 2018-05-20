@@ -1,0 +1,34 @@
+<v-toolbar :clipped-left="$vuetify.breakpoint.lgAndUp" class="primary theme--dark" app fixed>
+    <v-toolbar-title style="width: 300px" class="ml-0">
+        <v-toolbar-side-icon @click.stop="setDrawer()"></v-toolbar-side-icon>
+        <span class="pl-2">VueJs - Webpack</span>
+    </v-toolbar-title>
+    <v-menu :close-on-content-click="false" style="width: 400px" v-model="menu" offset-y>
+        <v-text-field flat solo-inverted prepend-icon="search" :nudge-width="400" label="Search" class="hidden-sm-and-down" v-model="search"
+            slot="activator"></v-text-field>
+        <!-- <v-btn slot="activator" color="indigo" dark>Menu as Popover</v-btn> -->
+        <v-card>
+            <v-flex fluid fill-height justify-center align-center>
+                <v-list>
+                    <v-list-tile v-for="item in filteredItems" :key="item.id" avatar @click="viewContact(item)">
+                        <v-list-tile-avatar>
+                            <img :src="item.picture">
+                        </v-list-tile-avatar>
+                        <v-list-tile-content>
+                            <v-list-tile-title v-html="item.name.first + ' ' + item.name.last "></v-list-tile-title>
+                        </v-list-tile-content>
+                        <v-list-tile-action v-if="item.isFavorite == true">
+                            <v-icon color="pink">star</v-icon>
+                        </v-list-tile-action>
+                    </v-list-tile>
+                </v-list>
+            </v-flex>
+        </v-card>
+    </v-menu>
+    <v-spacer></v-spacer>
+    <v-btn icon large>
+        <v-avatar size="32px" tile>
+            <img v-bind:src="logo" alt="Vuetify">
+        </v-avatar>
+    </v-btn>
+</v-toolbar>
